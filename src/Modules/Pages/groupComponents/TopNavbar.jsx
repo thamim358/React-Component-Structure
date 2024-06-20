@@ -30,13 +30,13 @@ const TopNavbar = ({ handleToggleSidebar }) => {
         {/* Static dropdown content */}
         <div className="profile-wrapper flex items-center cursor-pointer">
           {/* <EditIcon className={"mr-2"} /> */}
-          <Text type={"span"} className={"font-sans text-sm"}>Settings</Text>
+          <Text type={"span"} className={" text-sm"}>Settings</Text>
           {/* <DropdownIcon className={"mt-1"} /> */}
         </div>
         {/* Static logout button */}
         <div className="profile-wrapper flex items-center cursor-pointer ml-4">
           {/* <SignoutIcon className={"mr-2"} /> */}
-          <Text type={"span"} className={"font-sans text-sm"}>Sign out</Text>
+          <Text type={"span"} className={" text-sm"}>Sign out</Text>
         </div>
       </div>
     </nav>
